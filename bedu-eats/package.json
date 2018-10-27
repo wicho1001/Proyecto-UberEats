@@ -23,6 +23,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "redux": "^4.0.1"
+    "axios": "^0.18.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   }
 }
