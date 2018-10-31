@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 
+
 class SecPromotions extends Component{
 
     render(){
