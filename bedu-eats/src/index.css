@@ -12,3 +12,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+*{
+  margin: 0;
+}
+.logo{
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: nowrap ;
+  justify-content: space-between;
+}
+
+.imagen2{
+  border-radius: 50%;
+  
+}
+
+.tituloBurrito{
+  display: block;
+  height: 50px;
+  justify-content:center;
+  background-color: black;
+  color: white;
+}
+
+.imagenProgreso>img{
+  width: 100%;
+  height: 40px;
+  
+}
+
+.imagenProgreso>h3{
+  height: 0;
+  
+}
+
+.botonPaga{
+  width: 100%;
+  height: 3em;
+}
+
+.container{
+  display: flex;
+  height: 100%;
+  flex-direction:column;
+  align-items:stretch;
+  padding: 10px;
+}
