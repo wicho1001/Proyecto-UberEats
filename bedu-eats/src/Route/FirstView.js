@@ -4,7 +4,7 @@ import SecNav from '../Components/FirstView/SecNav'
 import SecSearch from '../Components/FirstView/SecSearch'
 import SecPromotions from '../Components/FirstView/SecPromotions'
 
-
+import "../index.css";
 
 class FirstView extends Component {
 

@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import imagen1 from "./img/1.jpg"
 
 class SecPromotions extends Component{
 
@@ -11,7 +10,7 @@ class SecPromotions extends Component{
         <div className="row fila">
             <div className="item-promociones col-md-4">
                 <div className="imagen">
-                    <img src={imagen1} alt="" className="promociones"/>
+                    <img src="/img" alt="" className="promociones"/>
                 </div>
                 <div className="titulo">Tacos Polanco</div>
                 <div className="tipo">MEXICANA</div>
