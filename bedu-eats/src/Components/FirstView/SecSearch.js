@@ -8,17 +8,28 @@ class SecSearch extends Component{
         data:[]
     }
 
-    forEachData = () => {
+    forEachData = evt => {
         const data = this.state.data.map(element => element.restaurant)
-        console.log(data);
         
+        let data2 = (data) => data.filter((v,i) => data.indexOf(v) === i)
+        
+        const data3 = data2(data).forEach(function (element){
+            if(evt.target.value == element){
+                console.log(element);
+                
+            }
+        });                 
     }
 
     
     
-    handleChange = evt => {
-        this.forEachData()    
-       }
+    // handleChange = evt => {
+    
+    //     this.forEachData()    
+    //     // if(evt.target.value = ){
+    //     //     console.log(evt.target.value)
+    //     // }
+    //    }
 
 
     componentDidMount(){
@@ -36,7 +47,7 @@ class SecSearch extends Component{
             </div>
             <div className="formulario">
                 <form action="">
-                    <input onKeyUp={this.handleChange} type="text" placeholder=""/><i className="fas fa-search"></i>
+                    <input onKeyUp={this.forEachData} type="text" placeholder=""/><i className="fas fa-search"></i>
                 </form>
             </div>
         </section>
