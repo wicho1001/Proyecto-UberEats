@@ -1,10 +1,20 @@
 {
-    "posts": [
-      { "id": 1, "title": "Burrito loco", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 2, "title": "Burrito Picoso", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 3, "title": "Taco Loco", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 4, "title": "Torta Lady Gaga", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 5, "title": "Torta Pachuqeña", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 6, "title": "Cochinita", "restaurant": "El Mariachi loco", "price": 20 }
-    ]
+    falta agregar type al producto y propiedades que tu consideres
+    haz varios productos y avrios restaurantes 
+    "productos": [
+      { "id": 1, "restaurantId":1, "title": "Burrito loco", "price": 20 },
+      { "id": 2, "title": "Burrito Picoso", "price": 20 },
+      { "id": 3, "title": "Taco Loco", "price": 20 },
+      { "id": 4, "title": "Torta Lady Gaga", "price": 20 },
+      { "id": 5, "title": "Torta Pachuqeña", "price": 20 },
+      { "id": 6, "title": "Cochinita", "price": 20 }
+    ],
+    "restaurants":[
+        aqui todas las propiedades para el restaurante
+        como:
+        "id"
+        name
+        type
+        location "aqui es donde va la geolocalizacion" 
+     ]
   }
