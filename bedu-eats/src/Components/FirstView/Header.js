@@ -1,4 +1,6 @@
 import React,{Component} from 'react';
+import avatar from "./img/avatar.jpeg";
+
 
 class Header extends Component{
 
@@ -11,7 +13,7 @@ class Header extends Component{
                         <h3>Bedu<span>Eats</span></h3>
                     </div>
                     <div className="avatar">
-                        <img src="img/avatar.jpeg" alt=""/>                   
+                        <img src={avatar} alt="avatar"/>                   
                     </div> 
                 </div>    
             </header>
@@ -21,3 +23,5 @@ class Header extends Component{
 }
 
 export default Header;
+
+
