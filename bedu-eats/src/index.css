@@ -14,9 +14,7 @@ code {
 }
 
 
-*{
-  margin: 0;
-}
+/* 
 .logo{
   height: 40px;
   margin-bottom: 10px;
@@ -60,7 +58,7 @@ code {
   flex-direction:column;
   align-items:stretch;
   padding: 10px;
-}
+} */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600");
@@ -71,7 +69,7 @@ body {
 .container-box {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1%; }
+ }
 
 input {
   border: none;
@@ -79,11 +77,12 @@ input {
   width: 100%; }
 
 header {
-  padding: 2% 0;
+  padding: 3% 0;
   -webkit-box-shadow: 1px 1px 5px #9B9B9B;
   box-shadow: 1px 1px 5px #9B9B9B; }
 
 header .container-header {
+  /* padding: 4%; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,8 +92,10 @@ header .container-header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-
+  
 .logo {
+  display: flex;
+  align-self: center;
   color: #373D48;
   font-size: 2em; }
 
@@ -107,6 +108,27 @@ header .container-header {
 .avatar img {
   width: 25%;
   border-radius: 50%; }
+
+  /* .logo {
+    margin: 0;
+    color: #373D48;
+    height:70px;
+    font-size: 2em; }
+  
+  .logo h3{
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo span {
+    font-weight: 100; }
+  
+  .avatar {
+    width: 20%;
+    height: 90%;
+    border-radius: 50%; 
+    text-align: right; } */
 
 /* *************** NAVEGACION  **************** */
 nav {
@@ -204,4 +226,9 @@ nav ul li i {
   font-size: .8em; }
 
 footer {
-  padding-top: 15%; }
+  padding-top: 20%; }
+
+
+  .blockButton{
+    color: #29AA57;
+  }

@@ -11,11 +11,11 @@ class FirstView extends Component {
 
   render() {
     return (
-      <div className="">
+      <div>
         <Header/>
-        <SecNav/>
         <SecSearch/>
         <SecPromotions/>
+        <SecNav/> 
       </div>
     );
   }

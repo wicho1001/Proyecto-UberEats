@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route , Switch } from 'react-router-dom'
 import FirstView from "./Route/FirstView"
-// import  from './Components/Imc/ImcRegister'
-
+import SecondView from "./Route/SecondView";
+import Header from "./Components/FirstView/Header"
 
 
 class App extends Component {
@@ -10,8 +10,9 @@ class App extends Component {
     return (
         <BrowserRouter>
           <Switch>
+          {/* <Route path="/" component={Header} strict/> */}
             <Route path="/" component={FirstView}  exact/>
-            {/* <Route path="/" component={}/> */}
+            <Route path="/2" component={SecondView} exact/>
           </Switch>
         </BrowserRouter>
     );
