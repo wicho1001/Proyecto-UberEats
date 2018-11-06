@@ -1,13 +1,193 @@
-{
-    "posts": [
-      { "id": 1, "title": "Burrito loco", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 2, "title": "Burrito Picoso", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 3, "title": "Taco Loco", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 4, "title": "Torta Lady Gaga", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 5, "title": "Torta Pachuqeña", "restaurant": "El Mariachi loco", "price": 20 },
-      { "id": 6, "title": "Cochinita", "restaurant": "Tacos el boneless", "price": 20 },
-      { "id": 7, "title": "Burrito loco", "restaurant": "Tacos el pelon", "price": 20 },
-      { "id": 8 , "title": "Burrito loco", "restaurant": "Tacos el papi", "price": 20 }
 
-    ]
+  "productos": [
+  {
+  "id": 1,
+  "restaurantId":1,
+  "title": "Burrito loco",
+  "price": 20,
+  "description":"Burrito hecho de carne con 3 quesos" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image1"} ,
+  "type": "object"
+  }, {
+  "id": 2,
+  "restaurantId":1,
+  "title": "Burrito Picoso",
+  "price": 20,
+  "description": "burrito hecho con salsa habanero",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image2"} ,
+  "type": "object"
+  },{
+  "id": 3,
+  "restaurantId":1,
+  "title": "Taco Loco",
+  "price": 20,
+  "description":"Taco hecho de carne de cerdo y cueritos" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image3"} ,
+  "type": "object"
+  },{
+  "id": 4, "restaurantId":1,
+  "title": "Torta Lady Gaga",
+  "price": 20,
+  "description": "Torta hecha con ingredientes secretos de la casa y salsa de color morada" ,
+  "in_stock":"" ,
+  "image":{"ref":"/definitions/image4"} ,
+  "type": "object"
+  }, {
+  "id": 5,
+  "restaurantId":1,
+  "title": "Torta Pachuqeña",
+  "price": 20,
+  "description": "Torta hecha de queso oaxaca y del tamaño de tu mano",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image5"},
+  "type": "object"
+  }, {
+  "id": 6,
+  "restaurantId":1,
+  "title": "Cochinita",
+  "price": 20,
+  "description": "Taco hecho de carne de yucatan" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image6"} ,
+  "type": "object"
+  }, {
+  "id": 7,
+  "restaurantId":2,
+  "title": "La gringa",
+  "price": 23,
+  "description": "Torta hecha de carne y 3 quesos" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image7"},
+  "type": "object"
+  }, {
+  "id": 8,
+  "restaurantId":2,
+  "title": "La azteca",
+  "price": 22,
+  "description": "Torta hecha de champiñones y aguacate y chicharron",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image8"},
+  "type": "object"
+  }, {
+  "id": 9,
+  "restaurantId":2,
+  "title": "Taco campechano",
+  "price": 25,
+  "description":"Taco hecho de 3 carnes" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image9"},
+  "type": "object"
+  }, {
+  "id": 10,
+  "restaurantId":2,
+  "title": "Torta suprema",
+  "price": 29,
+  "description":"Torta hecha de carne de res, cerdo, y queso fundido",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image10"},
+  "type": "object"
+  }, {
+  "id": 11,
+  "restaurantId":2,
+  "title": "Torta de jamon",
+  "price": 21,
+  "description": "Torta de jamón con jitomate",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image11"} ,
+  "type": "object"
+  }, {
+  "id": 12,
+  "restaurantId":2,
+  "title": "Torta ahogada",
+  "price": 30,
+  "description": "Torta de carne remojada en salsa",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image12"},
+  "type": "object"
+  }, {
+  "id": 13,
+  "restaurantId":3,
+  "title": "Taco de camaron",
+  "price": 35, "description":
+  "Taco de camaron y chile relleno de queso",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image13"} ,
+  "type": "object"
+  }, {
+  "id": 14,
+  "restaurantId":3,
+  "title": "Burrito Vegano",
+  "price": 27,
+  "description": "Burrito hecho de vegetales asados" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image14"},
+  "type": "object"
+  }, {
+  "id": 15,
+  "restaurantId":3,
+  "title": "Taco de Arrachera",
+  "price": 40,
+  "description": "Taco especial de carne arrachera",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image15"},
+  "type": "object"
+  }, {
+  "id": 16,
+  "restaurantId":3,
+  "title": "Torta de quesillo",
+  "price": 26,
+  "description":"Torta de quesillo y frijoles ",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image16"},
+  "type": "object"
+  }, {
+  "id": 17,
+  "restaurantId":3,
+  "title": "Torta Pachuca",
+  "price": 24,
+  "description":"Torta de cerdo con quesillo y chipotle" ,
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image17"},
+  "type": "object"
+  }, {
+  "id": 18,
+  "restaurantId":3,
+  "title": "Tamales de mole",
+  "price": 18,
+  "description": "Tamal hecho de mole con carne de pollo",
+  "in_stock":"" ,
+  "image": {"ref":"/definitions/image18"},
+  "type": "object"
+  }
+  ],
+  "restaurants":[
+  {
+  "restaurantId":1,
+  "name": "La Supertorta",
+  "description": "las mejores tortas de la ciudad",
+  "type": "object",
+  "image":"URL for the product image",
+  "phone": "+55567707115",
+  "location": "aqui es donde va la geolocalizacion" 
+  },{
+  "restaurantId":2,
+  "name": "Señor taco",
+  "description": "Los tacos norteños más ricos",
+  "type": "object",
+  "image": "URL for the product image",
+  "phone": "+55456890755",
+  "location": "aqui es donde va la geolocalizacion" 
+  }, {
+  "restaurantId":3,
+  "name": "La Casa bonita",
+  "description": "El mejor lugar para comer en familia",
+  "type": "object",
+  "image": "URL for the product image",
+  "phone": "+55458834755",
+  "location": "aqui es donde va la geolocalizacion" 
+  }
+  ]
   }
