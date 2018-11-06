@@ -7,7 +7,7 @@
       { "id": 5, "title": "Torta Pachuqeña", "restaurant": "El Mariachi loco", "price": 20 },
       { "id": 6, "title": "Cochinita", "restaurant": "Tacos el boneless", "price": 20 },
       { "id": 7, "title": "Burrito loco", "restaurant": "Tacos el pelon", "price": 20 },
-      { "id": 8, "title": "Burrito loco", "restaurant": "Tacos el papi", "price": 20 }
+      { "id": 8 , "title": "Burrito loco", "restaurant": "Tacos el papi", "price": 20 }
 
     ]
   }

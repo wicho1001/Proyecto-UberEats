@@ -14,15 +14,12 @@ class SecSearch extends Component{
         let data2 = (data) => data.filter((v,i) => data.indexOf(v) === i)
         
         const data3 = data2(data).forEach(function (element){
-            if(evt.target.value == element){
+            if(evt.target.value = element){
                 console.log(element);
-                
             }
-        });                 
+        });
     }
 
-    
-    
     // handleChange = evt => {
     
     //     this.forEachData()    
@@ -30,7 +27,6 @@ class SecSearch extends Component{
     //     //     console.log(evt.target.value)
     //     // }
     //    }
-
 
     componentDidMount(){
         axios.get('http://localhost:3000/posts/')
@@ -47,7 +43,10 @@ class SecSearch extends Component{
             </div>
             <div className="formulario">
                 <form action="">
-                    <input onKeyUp={this.forEachData} type="text" placeholder=""/><i className="fas fa-search"></i>
+                    <input  onKeyUp={this.forEachData} 
+                            type="search" 
+                            placeholder=""/>
+                            <i className="fas fa-search"></i>
                 </form>
             </div>
         </section>
