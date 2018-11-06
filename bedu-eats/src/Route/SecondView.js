@@ -1,6 +1,8 @@
 import React,{Component} from 'react'
 import Header from "../Components/FirstView/Header";
-import Main from "../Components/Main";
+import SecNav from "../Components/SecNav";
+import ContainerTitle from "../Components/SecondView/ContainerTitle";
+import MainContainer from "../Components/SecondView/MainContainer";
 import "../index.css"
 
 class SecondView extends Component{
@@ -9,7 +11,9 @@ class SecondView extends Component{
         return(
             <div>
                 <Header/>
-                <Main/>
+                <ContainerTitle/>
+                <MainContainer/> 
+                <SecNav/>  
             </div>
         )
     }

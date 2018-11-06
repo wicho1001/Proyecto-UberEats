@@ -1,5 +1,5 @@
-
-  "productos": [
+{
+  "productos":[
   {
   "id": 1,
   "restaurantId":1,
@@ -162,7 +162,7 @@
   "image": {"ref":"/definitions/image18"},
   "type": "object"
   }
-  ],
+],
   "restaurants":[
   {
   "restaurantId":1,
@@ -190,4 +190,4 @@
   "location": "aqui es donde va la geolocalizacion" 
   }
   ]
-  }
+}

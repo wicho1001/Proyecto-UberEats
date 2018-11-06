@@ -14,53 +14,7 @@ code {
 }
 
 
-/* 
-.logo{
-  height: 40px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: nowrap ;
-  justify-content: space-between;
-}
-
-.imagen2{
-  border-radius: 50%;
-  
-}
-
-.tituloBurrito{
-  display: block;
-  height: 50px;
-  justify-content:center;
-  background-color: black;
-  color: white;
-}
-
-.imagenProgreso>img{
-  width: 100%;
-  height: 40px;
-  
-}
-
-.imagenProgreso>h3{
-  height: 0;
-  
-}
-
-.botonPaga{
-  width: 100%;
-  height: 3em;
-}
-
-.container{
-  display: flex;
-  height: 100%;
-  flex-direction:column;
-  align-items:stretch;
-  padding: 10px;
-} */
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500, 600,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600");
 body {
   margin: 0 auto;
@@ -69,7 +23,7 @@ body {
 .container-box {
   max-width: 1100px;
   margin: 0 auto;
- }
+  padding: 0 1%; }
 
 input {
   border: none;
@@ -77,12 +31,11 @@ input {
   width: 100%; }
 
 header {
-  padding: 3% 0;
+  padding: 2% 0;
   -webkit-box-shadow: 1px 1px 5px #9B9B9B;
   box-shadow: 1px 1px 5px #9B9B9B; }
 
 header .container-header {
-  /* padding: 4%; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,10 +45,8 @@ header .container-header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  
+
 .logo {
-  display: flex;
-  align-self: center;
   color: #373D48;
   font-size: 2em; }
 
@@ -108,27 +59,6 @@ header .container-header {
 .avatar img {
   width: 25%;
   border-radius: 50%; }
-
-  /* .logo {
-    margin: 0;
-    color: #373D48;
-    height:70px;
-    font-size: 2em; }
-  
-  .logo h3{
-    margin: 0;
-    display: flex;
-    align-items: center;
-  }
-
-  .logo span {
-    font-weight: 100; }
-  
-  .avatar {
-    width: 20%;
-    height: 90%;
-    border-radius: 50%; 
-    text-align: right; } */
 
 /* *************** NAVEGACION  **************** */
 nav {
@@ -174,15 +104,18 @@ nav ul li i {
 .titulos-secciones {
   color: #373D48; }
 
-/* *************** PROMOCIONES  **************** */
-.promociones {
-  padding: 0 1%; }
+/* *************** FOOTER  **************** */
+footer {
+  padding-top: 15%; 
+  margin-top: 5%;
 
+}
+
+/* *************** PROMOCIONES  **************** */
 .item-promociones {
-  margin: 2% 0; }
+  margin: 2.5% 0; }
 
 .item-promociones .imagen {
-  height: 180px;
   overflow: hidden; }
 
 .item-promociones img {
@@ -225,10 +158,34 @@ nav ul li i {
 .item-promociones .detalles .raiting i {
   font-size: .8em; }
 
-footer {
-  padding-top: 20%; }
+/* *************** RESTARURANTES  **************** */
+.restaurante-titulo {
+  background: #373D48;
+  color: white;
+  padding: 4% 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6em; }
 
+/* *************** PLATILLOS  **************** */
+.platillo-titulo {
+  color: #373D48;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-top: 4%; }
 
-  .blockButton{
-    color: #29AA57;
-  }
+.platillo-img img {
+  width: 100%; }
+
+.platillo-descripcion {
+  color: #9B9B9B;
+  font-size: .9em;
+  margin: 3% 0; }
+
+.platillo-btn {
+  background: #29AA57;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 10%; }

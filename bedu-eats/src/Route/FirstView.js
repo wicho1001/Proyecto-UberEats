@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Components/FirstView/Header'
-import SecNav from '../Components/FirstView/SecNav'
+import SecNav from '../Components/SecNav'
 import SecSearch from '../Components/FirstView/SecSearch'
 import SecPromotions from '../Components/FirstView/SecPromotions'
 
