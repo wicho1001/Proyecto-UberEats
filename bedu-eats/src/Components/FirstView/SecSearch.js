@@ -9,12 +9,12 @@ class SecSearch extends Component{
     }
 
     forEachData = evt => {
-        const data = this.state.data.map(element => element.restaurant)
+        const data = this.state.data.map(element => element.name)
         
         let data2 = (data) => data.filter((v,i) => data.indexOf(v) === i)
         
         const data3 = data2(data).forEach(function (element){
-            if(evt.target.value = element){
+            if(evt.target.value === element){
                 console.log(element);
             }
         });
@@ -29,7 +29,7 @@ class SecSearch extends Component{
     //    }
 
     componentDidMount(){
-        axios.get('http://localhost:3000/posts/')
+        axios.get('http://localhost:3000/restaurants/')
         .then(res => {this.setState({data:res.data});}
         )
     }
