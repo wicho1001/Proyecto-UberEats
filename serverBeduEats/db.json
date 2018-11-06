@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "productos": [
   {
   "id": 1,
@@ -191,24 +190,4 @@
   "location": "aqui es donde va la geolocalizacion" 
   }
   ]
-=======
-    falta agregar type al producto y propiedades que tu consideres
-    haz varios productos y avrios restaurantes 
-    "productos": [
-      { "id": 1, "restaurantId":1, "title": "Burrito loco", "price": 20 },
-      { "id": 2, "title": "Burrito Picoso", "price": 20 },
-      { "id": 3, "title": "Taco Loco", "price": 20 },
-      { "id": 4, "title": "Torta Lady Gaga", "price": 20 },
-      { "id": 5, "title": "Torta Pachuqeña", "price": 20 },
-      { "id": 6, "title": "Cochinita", "price": 20 }
-    ],
-    "restaurants":[
-        aqui todas las propiedades para el restaurante
-        como:
-        "id"
-        name
-        type
-        location "aqui es donde va la geolocalizacion" 
-     ]
->>>>>>> b6c2f4221e98ca023cdf81647755e893cb516073
   }
